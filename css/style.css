@@ -2,7 +2,18 @@ body {
     font-family: 'Roboto' , sans-serif;
 }
 
-.aletrt-container {}
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px;
+    background-color: #debc51;
+    border-color: #debc51;
+}
 
 .callout-container {
     height: 100vh;
@@ -49,6 +60,35 @@ body {
     width: 35px;
 }
 
+/*Navbar*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler{
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
 /*Jumbotron*/
 
 .jumbotron {
@@ -72,7 +112,7 @@ body {
     color: #d0d0d0;
 }
 
-/*Buttons*/
+/* Buttons */
 
 .btn--cta {
     font-weight: bold;
@@ -82,14 +122,15 @@ body {
 
 .btn--red {
     color: white;
-    background-color: red;
-    border-color: red;
+    background-color: #f05f40;
+    border-color: #f05f40;
 }
 
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: black;
-    border-color: black;
+    background-color: #df4929;
+    border-color: #df4929;
     color: white;
+}
